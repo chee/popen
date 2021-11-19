@@ -1,0 +1,9 @@
+popen
+
+tty1:
+	cd jack_link
+	popen ./jack_link
+
+tty2:
+	cd jack_link
+	echo 'tempo 120' | nc -U ./stdin -w1
