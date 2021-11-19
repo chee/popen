@@ -6,4 +6,4 @@ tty1:
 
 tty2:
 	cd jack_link
-	echo 'tempo 120' | nc -U ./stdin -w1
+	echo 'tempo 100' | nc -U ./stdin -w1
